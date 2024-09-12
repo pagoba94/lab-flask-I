@@ -2,7 +2,7 @@
 
 ## Introduction
 
-On this lab, you will create your very first own API using Flask. You'll lern how to set up a server, stop it, and abstract your code by using endpoints.
+On this lab, you will create your very first own API using Flask. You'll lern how to set up a server, stop it, and abstract your code by using endpoints. Write all the code within the same jupyter notebook cell.
 
 ### Iteration 1
 
@@ -23,7 +23,7 @@ app = Flask(__name__)
 3. Make sure you start the app:
 
 ```python
-app.run(port=9000, debug=True)
+app.run(port=9000, debug=False) # You may want to change the debug to True to avoid stopping & starting the server all the time
 ```
 
 4. Your notebook cell should look like this:
